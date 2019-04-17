@@ -5,25 +5,25 @@ BÀI TẬP KIỂM THỬ
 
 Hàm đã chọn:
 https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/Data%20Structure/Queue%20Using%20Array.cpp
+```
+1. void Deque(){
+2. 	if (front==rear)
+3. 	{
+4. 		cout<<"\nUnderflow";
+5. 	}
+6. 	else
+7. 	{
+8. 		cout<<"\n"<<queue[front++]<<" deleted";
+9. 		for (int i = front; i < rear; i++)
+10. 		{
+11. 			queue[i-front]=queue[i];
+12. 		}
+13. 		rear=rear-front;
+14. 		front=0;
+15. 	}
+16. }
+```
 
-void Deque()
-{
-	if (front==rear)
-	{
-		cout<<"\nUnderflow";
-	}
-	
-	else
-	{
-		cout<<"\n"<<queue[front++]<<" deleted";
-		for (int i = front; i < rear; i++)
-		{
-			queue[i-front]=queue[i];
-		}
-		rear=rear-front;
-		front=0;
-	}
-}
 
 Bước 1 : Lập đồ thị
 
