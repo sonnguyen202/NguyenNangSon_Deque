@@ -29,3 +29,11 @@ Bước 1 : Lập đồ thị
 
 ![code2flow_gyZ9FW](https://user-images.githubusercontent.com/47601083/56302177-6e32f280-6163-11e9-9d93-edb89ac3abb9.png)
 
+Bước 2 : Liệt kê các đường đi
+
+Đường số 1: 1 -> 2 -> 3 -> 4 ->5
+
+Đường số 2: 1 -> 2 -> 6 -> 7 -> -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16
+
+
+
